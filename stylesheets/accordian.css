@@ -1,0 +1,27 @@
+article {
+  border: 1px solid #ddd;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  text-align: left;
+}
+
+.faq-q{
+  padding: 1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-a{
+  padding: 0 1em;
+    max-height: 0rem;
+    overflow: hidden;
+    transition: max-height 0.4s linear;
+}
+.faq-icon{
+  width: 2rem;
+  transition: all 0.4s;
+}
+.faq-icon.active{
+  transform: rotate(45deg);
+}
