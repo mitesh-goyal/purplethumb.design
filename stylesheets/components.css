@@ -300,12 +300,12 @@
 
 .book-call-container {
     padding-block: var(--gap-of-u9);
-    width: 100%;
+    max-width: 100%;
 }
 
 .footer-container {
     padding-bottom: var(--gap-of-u12);
-    width: 100%;
+    max-width: 100%;
 }
 
 .footer-logo {
