@@ -1,0 +1,60 @@
+@media screen and (min-width: 600px) {
+    .steps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
+    .steps .step{
+        align-items: start;
+    }
+    .steps .step .step-title, .steps .step .step-description{
+        text-align: start;
+    }
+    
+    .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .features .feature {
+        height: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+    .review {
+        width: calc(var(--container-width)/2);
+    }
+    
+    .pricing-plans {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .pricing-plans>div {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .pricing-plans>div>.pricing-plan {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .compare-container .section-btn.undesign-btn{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .steps{
+        grid-template-columns: repeat(4, 1fr);
+        align-items: start;
+        gap: var(--gap-of-u8);
+    }
+    
+}
